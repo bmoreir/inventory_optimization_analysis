@@ -98,6 +98,8 @@ Where:
 
 ## Visualizations
 
+### Stockout Analysis
+![Stockout Chart](images/Stockout_Days.png)
 
 
 ---
