@@ -101,6 +101,8 @@ Where:
 ### Stockout Analysis
 ![Stockout Chart](images/Stockout_Days.png)
 
+### Demand vs Inventory
+![Scatter Plot](images/Demand_vs_Inventory.png)
 
 ---
 
