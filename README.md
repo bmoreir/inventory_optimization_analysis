@@ -85,6 +85,8 @@ Where:
 * Product 2 experienced high demand and frequent stockouts, indicating that current reorder policies are insufficient to meet demand
 * Product 8 maintained high inventory despite low demand, suggesting inefficient use of inventory capital and excess holding costs
 * Inventory distribution across products was misaligned with demand patterns, leading to both lost sales and operational inefficiencies
+* Product 6 stockouts decreased by approximately 32% (from 62 to 42 instances) after inventory adjustments, highlighting that targeted, product-level strategies can significantly outperform uniform inventory increases
+* Reduced simulated stockouts by approximately 12% after adjusting inventory levels, highlighting that simple inventory increases alone are insufficient and that more targeted, demand-aligned allocation strategies are required
 
 ---
 
@@ -94,8 +96,7 @@ This analysis demonstrates how data-driven inventory policies can:
 
 * Reduce stockouts and prevent lost sales for high-demand products  
 * Lower holding costs by minimizing excess inventory  
-* Improve overall inventory efficiency through demand-based decision making
-* Reduced simulated stockouts for high-demand products after adjusting reorder points, demonstrating the effectiveness of demand-driven inventory policies
+* Improve inventory allocation by aligning stock levels with demand patterns  
 
 ---
 
@@ -104,6 +105,7 @@ This analysis demonstrates how data-driven inventory policies can:
 * Increase reorder points and safety stock for high-demand products
 * Reduce inventory levels for low-demand items
 * Implement demand-driven inventory policies rather than static thresholds
+* Results indicate that reallocating inventory across products may be more effective than uniformly increasing stock levels
 
 ---
 
