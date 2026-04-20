@@ -1,4 +1,6 @@
-Inventory Optimization Analysis
+Data-Driven Inventory Optimization Using SQL and Python
+
+> Identified understocked high-demand products and overstocked low-demand items, and proposed reorder point optimizations to reduce stockouts and excess inventory.
 
 ## Overview
 
@@ -68,9 +70,9 @@ Compared average demand and inventory levels to detect inefficiencies.
 
 Reorder points were estimated using:
 
-[
-ROP = d \times L + SS
-]
+**Reorder Point Formula:**
+
+ROP = d × L + SS
 
 Where:
 
@@ -82,9 +84,19 @@ Where:
 
 ## Key Findings
 
-* **Product 2** exhibited high demand and frequent stockouts, indicating insufficient inventory levels
-* **Product 8** showed low demand but consistently high inventory, suggesting overstocking
-* Inventory allocation across products was imbalanced, leading to both lost sales and increased holding costs
+* Product 2 experienced high demand and frequent stockouts, indicating that current reorder policies are insufficient to meet demand
+* Product 8 maintained high inventory despite low demand, suggesting inefficient capital allocation and excess holding costs
+* Inventory distribution across products was misaligned with demand patterns, leading to both lost sales and operational inefficiencies
+
+---
+
+## Business Impact
+
+This analysis demonstrates how data-driven inventory policies can:
+
+* Reduce stockouts and prevent lost sales for high-demand products  
+* Lower holding costs by minimizing excess inventory  
+* Improve overall inventory efficiency through demand-based decision making
 
 ---
 
@@ -136,4 +148,5 @@ inventory-analysis/
 ## Author
 
 Byron Moreira
-Computer Science & Mathematics & Statistics Graduate
+
+B.Sc. in Computer Aplications, Mathematics & Statistics
