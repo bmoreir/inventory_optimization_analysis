@@ -46,10 +46,8 @@ The dataset includes multiple demand profiles (high, medium, low) to reflect rea
 Identified products with the highest number of stockout days:
 
 ```sql
-SELECT 
-    product_id,
-    COUNT(*) AS stockout_days
-FROM inventory_data
+SELECT product_id, COUNT(*) AS stockout_days
+FROM inventory
 WHERE stock_level = 0
 GROUP BY product_id
 ORDER BY stockout_days DESC;
@@ -85,7 +83,7 @@ Where:
 ## Key Findings
 
 * Product 2 experienced high demand and frequent stockouts, indicating that current reorder policies are insufficient to meet demand
-* Product 8 maintained high inventory despite low demand, suggesting inefficient capital allocation and excess holding costs
+* Product 8 maintained high inventory despite low demand, suggesting inefficient use of inventory capital and excess holding costs
 * Inventory distribution across products was misaligned with demand patterns, leading to both lost sales and operational inefficiencies
 
 ---
@@ -97,6 +95,7 @@ This analysis demonstrates how data-driven inventory policies can:
 * Reduce stockouts and prevent lost sales for high-demand products  
 * Lower holding costs by minimizing excess inventory  
 * Improve overall inventory efficiency through demand-based decision making
+* Reduced simulated stockouts for high-demand products after adjusting reorder points, demonstrating the effectiveness of demand-driven inventory policies
 
 ---
 
@@ -149,4 +148,4 @@ inventory-analysis/
 
 Byron Moreira
 
-B.Sc. in Computer Aplications, Mathematics & Statistics
+B.Sc. in Computer Applications, Mathematics & Statistics
